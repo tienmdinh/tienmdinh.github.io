@@ -1,9 +1,26 @@
+
+/*-------- FONTS----------- */
+@font-face{
+    font-family:"glowies2";
+    src: url('https://dl.dropboxusercontent.com/s/gdn9befynhd1v6x/ps.otf');
+}
+ 
+@font-face{
+    font-family:"Axis";
+    src: url('https://dl.dropboxusercontent.com/s/108jph3jeqb1zlb/ax.otf');
+}
+ 
+@font-face{
+    font-family:"icony";
+    src: url('https://dl.dropboxusercontent.com/s/a7bri7ihdzf1r5h/icony.ttf');
+}
+
 body {
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica', 'Axis';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -19,7 +36,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+h1 { /* for h1 header*/
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
